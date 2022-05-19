@@ -89,13 +89,13 @@ ${usage}
 ${contribution}
 ## Test Instructions
 ${tests}
+## Licences 
+![Licence](${generateBadgeUrl(licences)})
+${generatreLicenceInfo(licences)}
 ## Questions
 To find out more information about this repo please visit my github page https://github.com/${github}
 Need more info?
 ${questions}
-## Licences 
-![Licence](${generateBadgeUrl(licences)})
-${generatreLicenceInfo(licences)}
 `
 const create = () => {
     promptUser()
